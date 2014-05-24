@@ -16,8 +16,8 @@ m <- NULL
 #define function which retrieves the matrix
         get <- function() x
         
-#define function which stores a manual input inverse of x
-# use  <<- operator to assign a manual input value of "solve" to m 
+#define function which stores an input inverse of x
+# use  <<- operator to assign an input value of "solve" to m 
 setinv <- function(solve) {m <<- solve}
 
 #define function which retrieves the stored inverse of x
