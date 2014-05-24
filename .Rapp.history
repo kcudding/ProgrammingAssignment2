@@ -1,0 +1,17 @@
+m<-10
+setinv <- function(mean) m
+setinv
+setinv(3)
+function(mean) m<<-solve
+setinv(3)
+setinv
+rm m
+rm(m)
+function(mean) m<<-mean
+setinv<-function(mean) m<<-mean
+setinv(3)
+rm(m)
+setinv<-function(mean) m<<-mean
+setinv(3)
+m<-10
+setinv(3)
