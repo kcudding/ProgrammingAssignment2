@@ -16,11 +16,11 @@ m <- NULL
 #define function which retrieves the matrix
         get <- function() x
         
-#define function which stores the inverse of x
-# use the <<- operator to assign the value of solve to m, where this value is calculated in cacheSolve rather #than in makeCacheMatrix (if it exists) 
-setinv <- function(solve) m <<- solve
+#define function which stores a manual input inverse of x
+# use  <<- operator to assign a manual input value of "solve" to m 
+setinv <- function(solve) {m <<- solve}
 
-#define function which retrieves the inverse of x
+#define function which retrieves the stored inverse of x
         getinv <- function() m
         
 #return list object of these functions
